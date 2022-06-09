@@ -49,6 +49,7 @@ ul.labels-list li.active {
   height: 100%;
   width: 100vw;
   display: flex;
+  gap: 10vw;
   flex-wrap: nowrap;
   -webkit-overflow-scrolling: touch;
 }
