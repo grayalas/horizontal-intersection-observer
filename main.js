@@ -5,6 +5,8 @@ import './style.css';
 //   <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
 // `
 
+// https://cdn.jsdelivr.net/gh/grayalas/horizontal-intersection-observer/main.js
+
 // sterilizeText normalizes any sting by replacing spaces with hypens and forcing lowercase.
 const sterilizeText = (str) => str.replace(/\s+/g, '-').toLowerCase();
 
