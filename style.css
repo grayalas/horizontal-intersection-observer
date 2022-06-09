@@ -9,6 +9,7 @@
 #app {
   height: 100%;
   overflow-x: scroll;
+  scroll-snap-type: x mandatory;
 }
 
 * {
@@ -38,6 +39,7 @@ nav ul.labels-list {
   gap: 1rem
 }
 
+
 ul.labels-list li.active {
   text-decoration: underline;
 }
@@ -63,5 +65,6 @@ ul.labels-list li.active {
   white-space: nowrap;
   min-width: 0;
   min-height: 0;
-  overflow: hidden
+  overflow: hidden;
+  scroll-snap-align: center;
 }
